@@ -5,7 +5,7 @@
 * Example of O(n)=Printing elements from 1 to n.
 * Example of O(log n)=Printing elements that are power of 2 from 2 to n.
 
-###Big-O notation provides some fundamental rules that help developers compute for f(n),that is complexity of an algorithm:
+### Big-O notation provides some fundamental rules that help developers compute for f(n),that is complexity of an algorithm:
 
 1. Coefficient rule: If f(n) is O(g(n)), then kf(n) is O(g(n)), for any
 constant k > 0. The first rule is the coefficient rule, which eliminates
