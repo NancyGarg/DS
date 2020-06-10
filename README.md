@@ -33,3 +33,30 @@ complexities have Big-O of the same polynomial degree.
 the log of a power rule, constants within a log function are also
 ignored in Big-O notation.
 
+### Js Scope
+  * Global Scope:Acessible globally
+  * Local Scope():Accessible to a specific code
+    - Functional Scope:using var keyword
+    - Block scope using let keyword.
+    
+  
+  In JavaScript, var is one keyword used to declare variables. These variable declarations
+“float” all the way to the top. This is known as variable hoisting.
+
+### Equality and Types
+  * Truly/Falsey Checking
+  //
+  if(node){
+         ...
+ }
+Here, node is some variable. If that variable is empty, null, or undefined, it will be
+evaluated as false.
+Here are commonly used expressions that evaluate to false:
+• false
+• 0
+• Empty strings ('' and "")
+• NaN
+• undefined
+ //
+• null
+
