@@ -45,7 +45,7 @@ ignored in Big-O notation.
 
 ### Equality and Types
   * Truly/Falsey Checking
-  //
+  ```
   if(node){
          ...
  }
@@ -57,6 +57,6 @@ Here are commonly used expressions that evaluate to false:
 • Empty strings ('' and "")
 • NaN
 • undefined
- //
 • null
+```
 
