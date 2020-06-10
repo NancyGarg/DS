@@ -49,7 +49,7 @@ ignored in Big-O notation.
   if(node){
          ...
  }
-Here, node is some variable. If that variable is empty, null, or undefined, it will be
+/* Here, node is some variable. If that variable is empty, null, or undefined, it will be
 evaluated as false.
 Here are commonly used expressions that evaluate to false:
 • false
@@ -57,6 +57,6 @@ Here are commonly used expressions that evaluate to false:
 • Empty strings ('' and "")
 • NaN
 • undefined
-• null
+• null */
 ```
 
