@@ -100,36 +100,35 @@ Base64-encoded string looks like this: ­aGVsbG8gSSBsb3ZlIGxlYXJuaW5nIHRvIGNvbXB
 
 ## JS Arrays
 ### Iteration
- * Time complexity is O(n) always
+* Time complexity is O(n) always.
+ 
 1.For loop
 for (Variables; Condition; Modification)
 
 2. while loop
 ```
-   while(true){
-      if (breakCondition) {
-          break;
-     }
-  }
+ while(true){
+    if (breakCondition) {
+        break;
+   }
+ }
 ```
 3. for ( in )
 ```
-   var array1 = ['all','cows','are','big'];
-   for (var index in array1) {
+ var array1 = ['all','cows','are','big'];
+  for (var index in array1) {
        console.log(index);
-  }
+ }
+ // This prints the following: 0,1,2,3.
 ```
-This prints the following: 0,1,2,3.
-
 4. for ( of )
 The variable specified before of is the element (the value) of the array, as follows:
 ```
   for (var element of array1) {
       console.log(element);
   }
-  ```
-This prints out all, cows, are, and big.
-
+ // This prints out all, cows, are, and big.
+```
 5. forEach( )
 The big difference between forEach and other methods of iteration is that forEach
 cannot break out of the iteration or skip certain elements in the array.
