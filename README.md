@@ -77,25 +77,21 @@ console.log(a < b); // prints 'false'
 
 
 // String Search,you can use .indexOf(searchValue[,fromIndex]).
-  var test1 = 'chicken';
+var test1 = 'chicken';
 test1.split(""); // ["c", "h", "i", "c", "k", "e", "n"]
 
 
 // String Replace,.replace(string, replaceString) replaces a specified string within a string variable with another string.
+"Wizard of Oz".replace("Wizard","Witch"); // "Witch of Oz"
 
- "Wizard of Oz".replace("Wizard","Witch"); // "Witch of Oz"
-String Decomposition
+
+// String Decomposition
+'String'.split(''); // ['S','t','r','i','n','g']
 ```
 
+### Encoding
 
-
-
-
-
-Encoding
-
-Base64 Encoding
-The btoa() function creates a Base64-encoded ASCII string from a string. Each character
+Base64 Encoding:The btoa() function creates a Base64-encoded ASCII string from a string. Each character
 in the string is treated as a byte (8 bits: eight 0 and 1s).
 The .atob() function decodes a string of data that has been encoded using Base64
 encoding. For example, the string “hello I love learning to computer program” in a
@@ -103,35 +99,38 @@ Base64-encoded string looks like this: ­aGVsbG8gSSBsb3ZlIGxlYXJuaW5nIHRvIGNvbXB
 1dGVyIHByb2dyYW0.
 
 ## JS Arrays
-Iteration
-Time complexity is O(n) always
-1. For loop
+### Iteration
+ * Time complexity is O(n) always
+1.For loop
 for (Variables; Condition; Modification)
 
-2. while 
-1   while(true){
-2       if (breakCondition) {
-3           break;
-4       }
-5   }
-
-for ( in )
-
-1   var array1 = ['all','cows','are','big'];
-2
-3   for (var index in array1) {
-4       console.log(index);
-5   }
+2. while loop
+```
+   while(true){
+      if (breakCondition) {
+          break;
+     }
+  }
+```
+3. for ( in )
+```
+   var array1 = ['all','cows','are','big'];
+   for (var index in array1) {
+       console.log(index);
+  }
+```
 This prints the following: 0,1,2,3.
 
-for ( of )
+4. for ( of )
 The variable specified before of is the element (the value) of the array, as follows:
-1   for (var element of array1) {
-2       console.log(element);
-3   }
+```
+  for (var element of array1) {
+      console.log(element);
+  }
+  ```
 This prints out all, cows, are, and big.
 
-forEach( )
+5. forEach( )
 The big difference between forEach and other methods of iteration is that forEach
 cannot break out of the iteration or skip certain elements in the array.
 
