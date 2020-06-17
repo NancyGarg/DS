@@ -102,7 +102,7 @@ Base64-encoded string looks like this: ­aGVsbG8gSSBsb3ZlIGxlYXJuaW5nIHRvIGNvbXB
 ### Iteration
 * Time complexity is O(n) always.
  
-1.For loop
+1. For loop
 for (Variables; Condition; Modification)
 
 2. while loop
