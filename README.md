@@ -60,32 +60,38 @@ Here are commonly used expressions that evaluate to false:
 • null */
 ```
 ## JS Strings
+```
 
-String Access
-For accessing characters, you use .chartAt().
-1  'dog'.charAt(1); // returns "o"
+// String Access,For accessing characters, you use .chartAt().
+ 'dog'.charAt(1); // returns "o"
+ 
 
-String Comparison
-1  var a = 'add';
-2  var b = 'b';
-3
-4  console.log(a < b); // prints 'true'
+// String Comparison
+var a = 'add';
+var b = 'b';
+console.log(a < b); // prints 'true'
 
-1  var a = 'add';
-2  var b = 'ab';
-3  console.log(a < b); // prints 'false'
+var a = 'add';
+var b = 'ab';
+console.log(a < b); // prints 'false'
 
-String Search
-you can use .indexOf(searchValue[,
+
+// String Search,you can use .indexOf(searchValue[,
 fromIndex]).
-1  var test1 = 'chicken';
-2  test1.split(""); // ["c", "h", "i", "c", "k", "e", "n"]
+  var test1 = 'chicken';
+test1.split(""); // ["c", "h", "i", "c", "k", "e", "n"]
 
-String Replace
-.replace(string, replaceString) replaces a specified string within a string variable
+
+// String Replace,.replace(string, replaceString) replaces a specified string within a string variable
 with another string.
-1  "Wizard of Oz".replace("Wizard","Witch"); // "Witch of Oz"
+
+ "Wizard of Oz".replace("Wizard","Witch"); // "Witch of Oz"
 String Decomposition
+```
+
+
+
+
 
 
 Encoding
