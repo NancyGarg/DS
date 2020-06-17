@@ -134,50 +134,50 @@ The big difference between forEach and other methods of iteration is that forEac
 cannot break out of the iteration or skip certain elements in the array.
 
 ### Helper functions
-.slice(begin,end)
-This helper function returns a portion of an existing array without modifying the array.
-.slice() takes two parameters: the beginning index and the ending index of the array.
-1   var array1 = [1,2,3,4];
-2   array1.slice(1,2); //returns [2], array1 = [1,2,3,4]
+1. slice(begin,end)
+ * This helper function returns a portion of an existing array without modifying the array.
+ * .slice() takes two parameters: the beginning index and the ending index of the array.
+ ```
+ var array1 = [1,2,3,4];
+ array1.slice(1,2); //returns [2], array1 = [1,2,3,4]
+ ```
 
 This is useful for copying an array in JavaScript. Remember that arrays in JavaScript
 are reference-based, meaning that if you assign a new variable to an array, changes to
 that variable apply to the original array.
 
-To create a new array, you can use .from().
-1   var array1 = [1,2,3,4];
-2   var array2 = Array.from(array1);
+2. To create a new array, you can use .from().
+```
+ var array1 = [1,2,3,4];
+ var array2 = Array.from(array1);
+```
 
-.splice(begin,size,element1,element2...)
-This helper function returns and changes the contents of an array by removing existing
-elements and/or adding new elements.
+3. .splice(begin,size,element1,element2...)
+* This helper function returns and changes the contents of an array by removing existing elements and/or adding new elements.
 
+4. .concat()
+* This adds new elements to the array at the end of the array and returns the array.
+```
+ var array1 = [1,2,3,4];
+ array1.concat(); //returns [1,2,3,4], array1 = [1,2,3,4]
+ array1.concat([2,3,4]); //returns [1,2,3,4,2,3,4],array1 = [1,2,3,4]
+```
 
-.concat()
-This adds new elements to the array at the end of the array and returns the array.
-1   var array1 = [1,2,3,4];
-2   array1.concat(); //returns [1,2,3,4], array1 = [1,2,3,4]
-3   array1.concat([2,3,4]); //returns [1,2,3,4,2,3,4],array1 = [1,2,3,4]
-
-
-Spread Operator
-The spread operator, denoted by three periods (...), is used to expand arguments where
-zero arguments are expected.
+5. Spread Operator
+The spread operator, denoted by three periods (...), is used to expand arguments where zero arguments are expected.
 
 ### Functional Array methods
--Map
--Filter
--Reduce:
-This function(Reduce) also can take initialValue as its second argument, which initializes
+* Map
+* Filter
+* Reduce:This function(Reduce) also can take initialValue as its second argument, which initializes
 the reduce value. For example, providing an initialValue of 1 in the previous example
 will yield 11, as shown here:
-1    var sum = [0,1,2,3,4].reduce( function (prevVal, currentVal, index,
-array) {
-2       return prevVal + currentVal;
-3   }, 1);
-4   console.log(sum); // prints 11
-
-
+```
+ var sum = [0,1,2,3,4].reduce( function (prevVal, currentVal, index,array) {
+     return prevVal + currentVal;
+     }, 1);
+ console.log(sum); // prints 11
+ ```
 Instead of multidimensional arrays, there are “jagged” arrays. A jagged array is an array whose elements are
 arrays. The elements of a jagged array can be of different dimensions and sizes
 
