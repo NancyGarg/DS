@@ -185,3 +185,10 @@ Functions that calls itself
 
 JSON.parse(), JSON.stringify(),document.getElementById(),DOM traversal algorithms and
 Object traversal etc. are mostly implemented using this.
+console.log(factorial(0)); 
+
+### Pitfalls
+ 
+* Wrong base case or no base case
+* Wrong return statement or forgetting to return
+* Stack overflow
