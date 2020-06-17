@@ -76,14 +76,12 @@ var b = 'ab';
 console.log(a < b); // prints 'false'
 
 
-// String Search,you can use .indexOf(searchValue[,
-fromIndex]).
+// String Search,you can use .indexOf(searchValue[,fromIndex]).
   var test1 = 'chicken';
 test1.split(""); // ["c", "h", "i", "c", "k", "e", "n"]
 
 
-// String Replace,.replace(string, replaceString) replaces a specified string within a string variable
-with another string.
+// String Replace,.replace(string, replaceString) replaces a specified string within a string variable with another string.
 
  "Wizard of Oz".replace("Wizard","Witch"); // "Witch of Oz"
 String Decomposition
