@@ -178,3 +178,10 @@ array) {
 
 Instead of multidimensional arrays, there are “jagged” arrays. A jagged array is an array whose elements are
 arrays. The elements of a jagged array can be of different dimensions and sizes
+
+## Recursive Functions
+
+Functions that calls itself
+
+JSON.parse(), JSON.stringify(),document.getElementById(),DOM traversal algorithms and
+Object traversal etc. are mostly implemented using this.
