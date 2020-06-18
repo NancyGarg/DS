@@ -195,7 +195,7 @@ Object traversal etc. are mostly implemented using this.
 * Stack overflow
 
 ## Searching ALgorithms
- ### 1. Linear Search
+ ### 1. Linear Search(Time Complexity=O(n))
  Javascript built-in functions that use linear search behind the scenes : 
  * indexOf()
  * includes()
