@@ -196,7 +196,7 @@ Object traversal etc. are mostly implemented using this.
 
 ## Searching ALgorithms
  ### 1. Linear Search
- Javascript built-in functions that use linear search behind the scenes
+ Javascript built-in functions that use linear search behind the scenes : 
  * indexOf()
  * includes()
  * find()
