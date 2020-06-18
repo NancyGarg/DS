@@ -193,3 +193,12 @@ Object traversal etc. are mostly implemented using this.
 * Wrong base case or no base case
 * Wrong return statement or forgetting to return
 * Stack overflow
+
+## Searching ALgorithms
+ ### 1. Linear Search
+ Javascript built-in functions that use linear search behind the scenes
+ * indexOf()
+ * includes()
+ * find()
+ * findIndex()
+ 
