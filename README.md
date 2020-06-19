@@ -181,6 +181,17 @@ will yield 11, as shown here:
 Instead of multidimensional arrays, there are “jagged” arrays. A jagged array is an array whose elements are
 arrays. The elements of a jagged array can be of different dimensions and sizes
 
+### Big O of Array Operations
+* Push-O(1)
+* Pop-O(1)
+* Shift-O(n)
+* Unshift-O(n)
+* Sort-O(n log n)
+* Concat-O(n)
+* Slice-O(n)
+* Splice-O(n)
+* forEach,map,fillter,reduce,etc-O(n)
+
 ## Recursive Functions
 
 Functions that calls itself
@@ -204,5 +215,13 @@ Object traversal etc. are mostly implemented using this.
  
  ### 2. Binary Search (Time Complexity=O(log n))
  * Works only on sorted data
+ 
+ ### 3. Naive String Search
+ * Searching substring in a string.
+ 
+ ## Sorting ALgorithms
+  ### 1. Bubble Sort (Time Complexity=O(n^2)
+  ### 2. Insertion Sort (Time Complexity=O(n^2)
+  ### 3. Selection Sort(Time Complexity=O(n^2))
 
  
