@@ -216,7 +216,7 @@ Object traversal etc. are mostly implemented using this.
  ### 2. Binary Search (Time Complexity=O(log n))
  * Works only on sorted data
  
- ### Naive String Search
+ ### 3. Naive String Search
  * Searching substring in a string.
  
  ## Sorting ALgorithms
