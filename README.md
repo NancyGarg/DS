@@ -222,6 +222,7 @@ Object traversal etc. are mostly implemented using this.
  ## Sorting ALgorithms
   ### 1. Bubble Sort (Time Complexity=O(n^2)
   ### 2. Insertion Sort (Time Complexity=O(n^2)
-  ### 3. Selection Sort(Time Complexity=O(n^2))
+  ### 3. Selection Sort (Time Complexity=O(n^2))
+  ### 4. Merge Sort (Time Complexity=O(n*logn) & Space Complexity=O(n))
 
  
