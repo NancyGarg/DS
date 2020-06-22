@@ -224,5 +224,22 @@ Object traversal etc. are mostly implemented using this.
   ### 2. Insertion Sort (Time Complexity=O(n^2)
   ### 3. Selection Sort (Time Complexity=O(n^2))
   ### 4. Merge Sort (Time Complexity=O(n*logn) & Space Complexity=O(n))
+  ### 5. Quick Sort (Time Complexity=O(n*log n) and it's in-place sorting algorithm)
+  
+ ## Singly Linked List
+ * A data structure that contains a head(beginning of the list),tail(end of the list) and length propperty.
+ * Linked Lists consists of nodes,and each node has a value and pointer to another value or null.
+ * Movement is allowed in one direction only.
+ * In comparison to array:
+   * Linked Lists do not have indexes.
+   * These are connected via nodes with the next pointer 
+   * Random access is not allowed here.
+   * Insertion/deletion at beginning is cheaper
+ * Complexity of various operations
+   * Insertion = O(1)
+   * Deletion= O(1)
+   * Access = O(n)
+   * Search = O(n)
+ 
 
  
