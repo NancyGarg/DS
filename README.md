@@ -35,7 +35,7 @@ ignored in Big-O notation.
 
 ### Js Scope
   * Global Scope:Acessible globally
-  * Local Scope():Accessible to a specific code
+  * Local Scope:Accessible to a specific code
     - Functional Scope:using var keyword
     - Block scope using let keyword.
     
