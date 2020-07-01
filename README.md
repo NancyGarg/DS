@@ -237,9 +237,42 @@ Object traversal etc. are mostly implemented using this.
    * Insertion/deletion at beginning is cheaper
  * Complexity of various operations
    * Insertion = O(1)
-   * Deletion= O(1)
+   * Deletion = O(1)
    * Access = O(n)
    * Search = O(n)
+   
+ ## Doubly Linked List
+ * Every node has prev and next to move back and forth in comparison to singly linked list that could move only forward.
+ * A few operations become easier to perform.
+ * Takes more space
+ * Complexity of various operations
+   * Insertion at beginning/end = O(1)
+   * Deletion at beginning/end = O(1) 
+   * Access = O(n)
+   * Search = O(n)
+   
+ ## Stacks
+  * Abstract data structure based on LIFO(Last In First Out) principle.
+  * Last element added to the stack will be the the first element removed from the stack.
+  * Examples
+   * Managing function invocations (Call Stack)
+   * Undo/Redo
+   * Routing (the history object) is treated like a stack too.
+  * Complexity of various operations
+   * Insertion (Push) = O(1)
+   * Removal (Pop) = O(1)
+   
+    
+ ## Queues
+  * Abstract data structure based on FIFO(First In First Out) principle.
+  * First element added to the queue will be the the first element removed from the stack.
+  * Examples
+   * Background tasks
+   * Uploading resources
+   * Printing/Task processing
+  * Complexity of various operations
+   * Insertion (Enqueue) = O(1)
+   * Removal (Dequeue) = O(1)
  
 
  
