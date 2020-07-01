@@ -255,24 +255,24 @@ Object traversal etc. are mostly implemented using this.
   * Abstract data structure based on LIFO(Last In First Out) principle.
   * Last element added to the stack will be the the first element removed from the stack.
   * Examples
-   * Managing function invocations (Call Stack)
-   * Undo/Redo
-   * Routing (the history object) is treated like a stack too.
+    * Managing function invocations (Call Stack)
+    * Undo/Redo
+    * Routing (the history object) is treated like a stack too.
   * Complexity of various operations
-   * Insertion (Push) = O(1)
-   * Removal (Pop) = O(1)
+    * Insertion (Push) = O(1)
+    * Removal (Pop) = O(1)
    
     
  ## Queues
   * Abstract data structure based on FIFO(First In First Out) principle.
   * First element added to the queue will be the the first element removed from the stack.
   * Examples
-   * Background tasks
-   * Uploading resources
-   * Printing/Task processing
+    * Background tasks
+    * Uploading resources
+    * Printing/Task processing
   * Complexity of various operations
-   * Insertion (Enqueue) = O(1)
-   * Removal (Dequeue) = O(1)
+    * Insertion (Enqueue) = O(1)
+    * Removal (Dequeue) = O(1)
  
 
  
