@@ -35,7 +35,7 @@ ignored in Big-O notation.
 
 ### Js Scope
   * Global Scope:Acessible globally
-  * Local Scope():Accessible to a specific code
+  * Local Scope:Accessible to a specific code
     - Functional Scope:using var keyword
     - Block scope using let keyword.
     
@@ -237,9 +237,80 @@ Object traversal etc. are mostly implemented using this.
    * Insertion/deletion at beginning is cheaper
  * Complexity of various operations
    * Insertion = O(1)
-   * Deletion= O(1)
+   * Deletion = O(1)
    * Access = O(n)
    * Search = O(n)
- 
+   
+ ## Doubly Linked List
+ * Every node has prev and next to move back and forth in comparison to singly linked list that could move only forward.
+ * A few operations become easier to perform.
+ * Takes more space
+ * Complexity of various operations
+   * Insertion at beginning/end = O(1)
+   * Deletion at beginning/end = O(1) 
+   * Access = O(n)
+   * Search = O(n)
+   
+ ## Stacks
+  * Abstract data structure based on LIFO(Last In First Out) principle.
+  * Last element added to the stack will be the the first element removed from the stack.
+  * Examples
+    * Managing function invocations (Call Stack)
+    * Undo/Redo
+    * Routing (the history object) is treated like a stack too.
+  * Complexity of various operations
+    * Insertion (Push) = O(1)
+    * Removal (Pop) = O(1)
+   
+    
+ ## Queues
+  * Abstract data structure based on FIFO(First In First Out) principle.
+  * First element added to the queue will be the the first element removed from the stack.
+  * Examples
+    * Background tasks
+    * Uploading resources
+    * Printing/Task processing
+  * Complexity of various operations
+    * Insertion (Enqueue) = O(1)
+    * Removal (Dequeue) = O(1)
+ ## Trees
+  * It's a non-linear data structure. 
+  * A data structire that consists of nodes in a parent/child relationship.
+  * One node can have refrence to more than one node.
+  * In trees, parent can direct towards child/children only.
+  * It has only one entry point.
+  * ROOT:It's the top node in a tree.
+  * CHILD:A node directly connected to another node when moving away from the root.
+  * PARENT:Converse of a child.
+  * SIBLINGS:A group of nodes with the same parents
+  * LEAF:A node with no children
+  * EDGE:connection between two nodes
+  * Applications of trees:
+    * HTML DOM
+    * Network Routing
+    * Abstract syntax tree
+    * Artfificial Inteligence
+    * Folders in os
+    * Computer File System
+    
+  #### Tree Traversal
+   1. Breadth First Search(BFS) : use it in case we dont have long breadth to reduce space usage
+   2. Depth First Search(DFS) : use it in case of wide breadth tree to reduce space usage
+      * In Order Traversal (Left-Node-Middle)
+      * Pre-Order Traversal (Node-Left-Right)
+      * Post-Order Traversal (Left-Right-Node)
+    
+  ### Binary Tree
+   * Special type of tree
+   * One node can have atmost 2 children
+   
+  ### Binary Search Tree
+   * Special type of binary tree
+   * Nodes are arranged in a particular order
+   * They are used to store data that can be compared.
+   * For any particular node,any values less than it will be stored towards left,and bigger values will be stored towards right
+   * Complexity of various operations
+     * Insertion = O(log n)
+     * Searching = O(log n)
 
  
