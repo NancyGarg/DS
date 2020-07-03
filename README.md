@@ -273,6 +273,37 @@ Object traversal etc. are mostly implemented using this.
   * Complexity of various operations
     * Insertion (Enqueue) = O(1)
     * Removal (Dequeue) = O(1)
- 
+ ## Trees
+  * It's a non-linear data structure. 
+  * A data structire that consists of nodes in a parent/child relationship.
+  * One node can have refrence to more than one node.
+  * In trees, parent can direct towards child/children only.
+  * It has only one entry point.
+  * ROOT:It's the top node in a tree.
+  * CHILD:A node directly connected to another node when moving away from the root.
+  * PARENT:Converse of a child.
+  * SIBLINGS:A group of nodes with the same parents
+  * LEAF:A node with no children
+  * EDGE:connection between two nodes
+  * Applications of trees:
+    * HTML DOM
+    * Network Routing
+    * Abstract syntax tree
+    * Artfificial Inteligence
+    * Folders in os
+    * Computer File System
+    
+  ### Binary Tree
+   * Special type of tree
+   * One node can have atmost 2 children
+   
+  ### Binary Search Tree
+   * Special type of binary tree
+   * Nodes are arranged in a particular order
+   * They are used to store data that can be compared.
+   * For any particular node,any values less than it will be stored towards left,and bigger values will be stored towards right
+   * Complexity of various operations
+     * Insertion = O(log n)
+     * Searching = O(log n)
 
  
