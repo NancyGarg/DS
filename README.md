@@ -293,6 +293,13 @@ Object traversal etc. are mostly implemented using this.
     * Folders in os
     * Computer File System
     
+  #### Tree Traversal
+   1. Breadth First Search(BFS) : use it in case we dont have long breadth to reduce space usage
+   2. Depth First Search(DFS) : use it in case of wide breadth tree to reduce space usage
+      * In Order Traversal (Left-Node-Middle)
+      * Pre-Order Traversal (Node-Left-Right)
+      * Post-Order Traversal (Left-Right-Node)
+    
   ### Binary Tree
    * Special type of tree
    * One node can have atmost 2 children
