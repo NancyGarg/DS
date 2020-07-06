@@ -312,5 +312,29 @@ Object traversal etc. are mostly implemented using this.
    * Complexity of various operations
      * Insertion = O(log n)
      * Searching = O(log n)
+     
+  ### Binary Heaps
+   * Very similar to binary search tree,with some special rules.
+   * Can have atmost 2 children
+   * There is no order for left/right
+   * Binary Heap is as compact as possible,all the children of each node are as full as they can be and left ones are filled out first.
+   * Used to implement priority queues,also used with graph traversal algorithms.
+   * Two types : 
+     * MaxBinaryHeap : Parent nodes are always larger than its children,but no guarantee with the siblings
+     * MinBinaryHeap : Parent nodes are always smaller than its children,but no guarantee with the siblings
+   * In array implementation,for any index of array n,
+     Left child is stored at 2n+1
+     Right child is stored at 2n+2
+   * Time Complexity :
+     * Insertion = (logn)
+     * Removal = (logn)
+     * Search = (n)
+     
+  ### Priority Queue
+   * A data structure where each element has a priority
+   * Element swith higher priorities are served before elements with lower priorities.
+   * Can be implemented using any list structure or by binary heaps as well.
+   
+   
 
  
