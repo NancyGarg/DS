@@ -334,6 +334,9 @@ Object traversal etc. are mostly implemented using this.
    * A data structure where each element has a priority
    * Element swith higher priorities are served before elements with lower priorities.
    * Can be implemented using any list structure or by binary heaps as well.
+ 
+  ## `Hash Table/Hash Map
+   * Hash tables are sed to store key-value pairs
    
    
 
