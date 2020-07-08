@@ -326,9 +326,9 @@ Object traversal etc. are mostly implemented using this.
      Left child is stored at 2n+1
      Right child is stored at 2n+2
    * Time Complexity :
-     * Insertion = (logn)
-     * Removal = (logn)
-     * Search = (n)
+     * Insertion = O(logn)
+     * Removal = O(logn)
+     * Search = O(n)
      
   ### Priority Queue
    * A data structure where each element has a priority
@@ -339,10 +339,20 @@ Object traversal etc. are mostly implemented using this.
    * every programming language has some sort of hash table data structure
    * Hash tables are used to store key-value pairs.
    * They are like arrays,but keys are not ordered.
-   * They are fast for all th eoperations like finding values,inserting  and removing values.They are very commonly used because of their speed.
+   * They are fast for all the eoperations like finding values,inserting  and removing values.They are very commonly used because of their speed.
    * JS has Objects and Maps
    * Hash function : It takes in the key and return valid array index or it takes data of arbitary size and convert it into data of fixed size.
    * A good hash is fast,distributes outputs uniformly by not clustering outputs at specific indeces and is deterministic(same input yields same results)
+   * It'a good to make array length prime in order to get lesser collisions.
+   * Collision: when hash function returns same result for two or more keys,that is defined as collision.
+   * Strategies to deal with COLLISON : 
+    * SEPARATE CHAINING : In this, at each index in array we store values using more sphisticated DS like array or list.This allows us store multiple key value pairs at the same index.
+    * LINEAR PROBING : When we find a collision, we serach through the array to find the new empty slot.
+   * Time Complexity :
+    * Insertion = O(1)
+    * Deletion = O(1)
+    * Access = O(1)
+   
    
 
  
