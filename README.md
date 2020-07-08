@@ -346,12 +346,12 @@ Object traversal etc. are mostly implemented using this.
    * It'a good to make array length prime in order to get lesser collisions.
    * Collision: when hash function returns same result for two or more keys,that is defined as collision.
    * Strategies to deal with COLLISON : 
-    * SEPARATE CHAINING : In this, at each index in array we store values using more sphisticated DS like array or list.This allows us store multiple key value pairs at the same index.
-    * LINEAR PROBING : When we find a collision, we serach through the array to find the new empty slot.
+     * SEPARATE CHAINING : In this, at each index in array we store values using more sphisticated DS like array or list.This allows us store multiple key value pairs at the same index.
+     * LINEAR PROBING : When we find a collision, we serach through the array to find the new empty slot.
    * Time Complexity :
-    * Insertion = O(1)
-    * Deletion = O(1)
-    * Access = O(1)
+     * Insertion = O(1)
+     * Deletion = O(1)
+     * Access = O(1)
    
    
 
