@@ -1,6 +1,6 @@
 // Implementing hash table using arrays
 
-class hashTable {
+class HashTable {
   constructor(size = 43) {
     this.keyMap = new Array(size);
   }
