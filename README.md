@@ -369,7 +369,9 @@ Object traversal etc. are mostly implemented using this.
      * Representing graphs : 
       1. Adjacency Matrix
       2. Adjacency List
-     
+   ### Graph Traversal
+   1. Depth First Traversal
+   2. Breadth First Traversal
    
 
  
