@@ -352,7 +352,24 @@ Object traversal etc. are mostly implemented using this.
      * Insertion = O(1)
      * Deletion = O(1)
      * Access = O(1)
-   
+     
+  ## Graphs
+   * Graph DS consists of finite number of vertices/nodes/points together with a set of unordered pair of vertices for undirected graph and a set of ordered pair of vertices for directed graph.
+   * Uses of graphs : 
+     * Social Networks
+     * Location/ Mapping
+     * Routing Algorithms
+     * Visual Hierarchy
+     * File System Optimizations
+     * Vertex : A node
+     * Edge : Connection between two nodes
+     * Weighted/Unweighted : values assined to distances between vertices
+     * Directed Graphs : directions assigned to distances between nodes.
+     * Undirected Graphs : There are no directions assigned to distances between nodes.
+     * Representing graphs : 
+      1. Adjacency Matrix
+      2. Adjacency List
+     
    
 
  
