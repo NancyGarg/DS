@@ -371,7 +371,18 @@ Object traversal etc. are mostly implemented using this.
       2. Adjacency List
    ### Graph Traversal
    1. Depth First Traversal
+    * Using recursion
+    * Using iteration
    2. Breadth First Traversal
+   
+   ### Dijkstra's Algorithm
+   * Finds shortest path between two vertices on the graph.
+   * Uses :
+    * GPS-finding fastest route
+    * Network Routing -finds open shortest path for data
+    * Biology-used to model the spread of viruses among humans
+    * Airline Tickets-Finding cheapest ticket to the destination etc
+    
    
 
  
