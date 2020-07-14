@@ -383,6 +383,16 @@ Object traversal etc. are mostly implemented using this.
     * Biology-used to model the spread of viruses among humans
     * Airline Tickets-Finding cheapest ticket to the destination etc
     
+   ## Dynamic Programming Intro
+   * A method for solving a complex problem by breaking it down into a collection of simpler subproblems,solving each of those subproblems just nce, and storing their solutions.
+   * It only works on problems with optimal substructure and and overlapping subproblems.
+   * OPTIMAL SUBSTRUCTURE: A problem is said to have optimal substructre if an optimal solution can be constructed from optmsl solutions of its subproblems.
+   * OVERLAPPING SUBPROBLEMS: A problem is said to have overlapping subproblems if it can be broken down into subproblems which are used several times.
+   * Memoization: Atoring the results of expensive function calls and resturning the cached result when the same inputs occur again.
+   * Tabulation: (Bottom-up approach) Storing the result of previous result in a table(array),gives better space complexity.
+   
+    
+    
    
 
  
