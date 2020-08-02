@@ -205,6 +205,20 @@ Object traversal etc. are mostly implemented using this.
 * Wrong return statement or forgetting to return
 * Stack overflow
 
+## Sets
+A set is a fundamental data structure to represent unordered unique elements.The Set object supports insertion, deletion, and contains check, which all have a time complexity of O(1). With these built-in methods, other fundamental set operations such as intersection, difference, union, and superset check are implemented. These will enable to implement algorithms with fast uniqueness checks.
+
+Insertion: (Set.add) Native JavaScript. Adds the element to the set if it’s not
+already in the set.
+Deletion: (Set.delete) Native JavaScript. Deletes the element from the set if it’s
+in the set.
+Contains: (Set.has) Native JavaScript. Checks whether an element exists
+within in the set.
+Intersection (A∩B): (intersectSets) Returns a set with common elements of set A and set B.
+Union (A∪B): (unionSet) Returns a set with all elements of set A and set B.
+Difference (A-B): (differenceSet) Returns a set with all elements.
+
+
 ## Searching ALgorithms
  ### 1. Linear Search (Time Complexity=O(n))
  Javascript built-in functions that use linear search behind the scenes : 
